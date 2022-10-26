@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+img {
+    height: 2;
+    /* height: fit-content; */
+}
+
+.container{
+
+    background-color:white;
+}
+.img1 img{
+
+        height: 150px;
+        width: 150px;
+        margin: 20px 0px 0px 9px; 
+    /* background-color: red; */
+    }
+    .name1{
+    /* background-color: red; */
+    font-size: 23px;
+    text-align: center;
+    color: white;
+    } 
+    .socialmedia{
+    
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    text-align: center;
+    justify-content: space-around;
+    color: white;
+    }
+    .container{
+    
+        background-color:white;
+    }
+    .sidebar{
+        background-color: #040c15;
+    }
+    .sidebar nav {
+        text-align: center;
+        padding: 45 px;
+        font-size: 33px;
+        width:300px;
+    height: 100vh;
+    color: white;
+    }
+    .sidebar nav li{
+        list-style: none;
+        font-size: 30px;
+        padding:33px;
+        color: white;
+     
+    }
+    .sidebar nav li a{
+    
+        text-decoration: none;
+        color:whitesmoke;
+    }
+
+.main{
+   /* background-color: yellow;*/
+    width:90vw;
+}
+
+
+
+
+.devInfo{
+    display:flex;
+    flex-direction:column;
+justify-content: center;
+
+}
+.container{
+    display: flex;
+    
+}
+
+
+.devPic img{
+height: 300px;
+width: 300px;
+justify-content:center ;
+margin-top: 60px;
+
+}
+
+.hello{
+    font-size: 40px;
+}
+.name{
+    font-size: 40px;
+    font-weight: bold;
+}
+.about{
+    font-size: 30px;
+
+}
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 2px 4px;
+    cursor: pointer;
+} 
+.buttons button:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+.moreabout{
+margin-top: 22px;
+font-size: 18px;
+}
+.container3 {
+    display: flex;
+    /* flex-wrap: nowrap; */
+    justify-content: space-between;
+    height: 500px;
+    padding-top: 80px;
+}
+.container3 .box {
+    position: relative;
+    width: 350px;
+    padding: 40px;
+    box-shadow: 0 5px 15px rgba(91, 111, 167, 0.866);
+    border-radius: 4px;
+    margin: 20px;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+    height: 350px;
+}
+.container3 .box .icon {
+    position: relative;
+    width: 100%;
+    height: 90px;
+    color: black;
+    background: #031222;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    margin: 0 auto;
+    font-size: 40px;
+    transition: 1s;
+}
+
+.container3 .box .content {
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+
+.container3 .box .content p {
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+    font-size: 20px;
+    font-family: 'Tinos', serif;
+    margin: 10px 0;
+    padding: 0;
+}
+.skill h1{
+    padding-top: 20px;
+
+    text-align: center;
+}
